@@ -1,4 +1,6 @@
-This section is incomplete: the figures 2-4 are not yet inserted.
+This is Section I of an incomplete multi-part project. The introduction is [here](https://github.com/SexVar/Intro).
+
+This section is incomplete: figures 2-4 are not yet inserted.
 
 # Section I: Simulation Studies
 
