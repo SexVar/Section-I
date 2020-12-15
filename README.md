@@ -44,8 +44,6 @@ Bakker, M. [Marjan], Hartgerink, C. H., Wicherts, J. M., & van der Maas, H. L. (
 
 Bakker, M. [Merel], Torbeyns, J., Wijns, N., Verschaffel, L., & De Smedt, B. (2019). Gender equality in 4‐to 5‐year‐old preschoolers’ early numerical competencies. Developmental Science, 22(1), e12718.
 
-Kersey, A. J., Braham, E. J., Csumitta, K. D., Libertus, M. E., & Cantlon, J. F. (2018). No intrinsic gender differences in children’s earliest numerical abilities. _npj Science of Learning_, 3, 12.
-
 Brown, M. B. & Forsythe, A. B. (1974). Robust tests for the equality of variances. _Journal of the American Statistical Association_, _69_(346), 364-367.
 
 Conover, W. J., Johnson, M. E., & Johnson, M. M. (1981). A comparative study of tests for homogeneity of variances, with applications to the outer continental shelf bidding data. _Technometrics_, _23_(4), 351-361.
@@ -67,6 +65,8 @@ Hedges, L. V. & Nowell, A. (1995). Sex differences in mental test scores, variab
 Heeringa, S. G., West, B. T., & Berglund, P. A. (2010). Getting to know the complex sample design. In _Applied survey data analysis_ (pp. 13-51). CRC Press.
 
 Jensen, A. R. (1980). _Bias in mental testing_. New York, NY: Macmillan.
+
+Kersey, A. J., Braham, E. J., Csumitta, K. D., Libertus, M. E., & Cantlon, J. F. (2018). No intrinsic gender differences in children’s earliest numerical abilities. _npj Science of Learning_, 3, 12.
 
 Levene, H. (1960). Robust tests for equality of variances. In I. Olkin, S. G. Ghurye, W. Hoeffding, W. G. Madow, & H. B. Mann (Eds.), _Contributions to probability and statistics: Essays in honor of Harold Hotelling_ (pp. 278-292). Stanford, CA: Stanford University Press.
 
