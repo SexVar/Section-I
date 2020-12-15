@@ -88,6 +88,4 @@ Sedlmeier, P. & Gigerenzer, G. (1989). Do studies of statistical power have an e
 
 Sharma, D. & Kibria, B. M. G. (2013). On some test statistics for testing homogeneity of variances: a comparative study. _Journal of Statistical Computation and Simulation_, _83_(10), 1944-1963.
 
-Van Valen, L. (2005). The statistics of variation. In B. Hallgrímsson & B. K. Hall (Eds.), _Variation_ (pp. 29-47). Academic Press.
-
 Vista, A. & Care, E. (2011). Gender differences in variance and means on the Naglieri Non‐verbal Ability Test: Data from the Philippines. _British Journal of Educational Psychology_, _81_(2), 292-308.
