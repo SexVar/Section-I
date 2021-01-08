@@ -1,7 +1,5 @@
 This is Section I of an incomplete multi-part project. The introduction is [here](https://github.com/SexVar/Intro).
 
-This section is incomplete: figures 2-4 are not yet inserted.
-
 # Section I: Simulation Studies
 
 Researchers have previously observed that larger samples are needed to reliably detect typical group differences in variability than in central tendency, and that random sampling error can easily cancel or reverse sex differences in variance (Feingold, 1992, p. 80; Fraser Roberts, 1945, p. 727; Jensen, 1980, pp. 627f.). Results of three simulation studies will be presented to emphasize and delineate this issue.
@@ -10,19 +8,29 @@ Levene’s (1960) test is widely used to test the null hypothesis of homogeneity
 
 Figure 2 displays sample sizes and their associated levels of power for the median-based Levene’s test. Each power estimate is the result of performing the test on ten million simulated samples using the “car” package (Fox & Weisberg, 2019). Figure 2a presents the procedure’s power in balanced samples up to 15,000. How many participants are needed to detect unequal variances between two equally numerous, normally distributed groups at the 5% significance level with 95% power? When the real VR=1.40, a total of about 1,060 participants; when the real VR=1.30, about 1,730; when the real VR=1.20, roughly 3,580; and when the real VR=1.10, about 13,080. Figure 2b zooms in on sample sizes up to 1,000, a range which encompasses a vast majority of studies of cognitive sex differences. Power for samples with 100 total participants ranges from 5.5% to 18% across the different VRs shown. With 300 participants, power is at 8.2% for VR=1.10 and still less than 50% for VR=1.40. Even with 1,000 participants, there is 17% power to detect a difference when VR=1.10, and only VR=1.40 exceeds 80% power.
 
-[Figure 2 here]
+<p align="center">
+<img src="https://github.com/SexVar/Section-I/blob/main/Figure%202a.png" width="700" height="600"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/SexVar/Section-I/blob/main/Figure%202b.png" width="700" height="600"/>
+</p>
 
 As will be shown later, sex differences in variance are often small and usually do not exceed 30%. Researchers analyzing samples of typical sizes should not view a nonsignificant result from Levene’s test as strong evidence for homogeneity of variance, although some have done so (e.g., Merel Bakker et al., 2019; Kersey et al., 2018; Vista & Care, 2011). For instance, Kersey and colleagues (2018) performed Levene’s procedure on cognitive test scores in slightly unbalanced samples ranging in size from 80 to 275. They reported power analyses for mean differences but did not mention the low power for Levene’s test. Although they found homogeneous variance in every sample, it is clear from Figure 2b that their sample sizes made this conclusion nearly inevitable. And naturally, small samples do not merely render Levene’s test impotent. They also cannot generate a reliably accurate estimate of the VR.
 
 Figure 3 serves as a quantitative illustration of deviations from the real VR due to random sampling error. The main indicator is the directional error rate: the percentage of observed VRs that are less than 1. All real VRs are greater than 1 here, so observed VRs < 1 are qualitatively incorrect. Balanced samples ranging in size from 20 to 3,000 were drawn from normal distributions with real VRs ranging from 1.10 to 1.40. For each data point, this was done ten million times. The directional error rate is higher when the real VR is closer to 1 and when the spread of observed VRs is wider, as in smaller samples. Thus, samples of 20 taken from a population with a real VR of 1.10 show the highest rate of directional error: 44.5%, compared to a random baseline of 50%. With 1,000 participants and a real VR of 1.10, the rate is about 1 in 7. It sinks below 1% at about n=4,800 (not shown in plot). For real VRs of 1.30 and 1.40, directional error rates eventually fall to (nearly) zero, in which none of the simulated VRs were less than 1.
 
-[Figure 3 here]
+<p align="center">
+<img src="https://github.com/SexVar/Section-I/blob/main/Figure%203.png" width="700" height="600"/>
+</p>
 
 Figure 4 illustrates the same concept for observed TPRs, with cut-points of 1% and 10% and real TPRs of 1.10, 1.20, and 1.50. Tail size refers to the number of data points beyond the cut-point, and it ranges from 10 to 1,000. For instance, the tail size beyond a 10% cut-point in a sample of 300 is 30. Unlimited combinations of mean and variance differences could produce a given TPR beyond a given cut-point. In actual data the highest TPRs are produced by concordant contributions from mean and variance differences (e.g., Hedges & Nowell, 1995). For clarity, in Fig. 3 simulations the real TPRs depart from 1 due only to differences in variance; there are no mean differences between the two groups. Due to the symmetry in these simulations, the bottom and top of the distributions have the same TPRs, so the cut-points refer to both tails (e.g., top and bottom 1%).
 
 A far more extensive display, Table S4, is provided in the supplement with mean differences and higher TPRs. The results in Fig. 4 and Table S4 show that the directional error rate is determined almost entirely by the real TPR and the tail size. Results are barely swayed by modulating combinations of mean and variance differences to produce the same real TPR, or by modulating combinations of sample size and cut-point to produce the same tail size. For instance, with a real TPR of 1.10, it hardly matters whether there is a sample of 7,000 and a cut-point of 1% or a sample of 700 and a cut-point of 10%, because the tail size is 70 in both cases. Although the sample sizes and cut-points differ by a factor of ten, the directional error rates are similar: 34.4% in the former case and 33.3% in the latter case. The values for Fig. 4 and Table S4 were computed by simulating ten million observed TPRs per data point.
 
-[Figure 4 here]
+<p align="center">
+<img src="https://github.com/SexVar/Section-I/blob/main/Figure%204.png" width="700" height="600"/>
+</p>
 
 It should be remembered that the real VR or TPR is always unknown — we can access only an observed value — and that the data reflect patterns in samples drawn from perfectly normal populations with no systematic error, unlike data from real samples (Dykiert et al., 2009; Lynn & Kanazawa, 2011; Madhyastha et al., 2009). They also do not account for random measurement error. Perhaps even more importantly, these results apply to simple random samples. Complex sample designs are common among those considered in this article, because they are generally a practical requirement to collect large samples. Three features primarily distinguish a complex sample from a simple random sample: clustering, weighting, and stratification. Relative to simple random designs, cluster sampling increases uncertainty of estimates because observations within each cluster are correlated, and thus provide less information than independent observations. Various factors in complex sample designs lead to differential weighting of observations, which strongly tends to expand uncertainty of estimates. Stratification tempers these effects if executed properly, but in general complex samples are less efficient than simple random samples.
 
